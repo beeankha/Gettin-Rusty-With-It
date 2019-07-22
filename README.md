@@ -1,2 +1,2 @@
-# bianca_rust
+# My Rust Repo! :crab:
 For learning Rust
