@@ -1,5 +1,6 @@
-use std::io; // importing io from the standard library, aka "std"
 use rand::Rng;
+use std::cmp::Ordering;
+use std::io; // importing io from the standard library, aka "std"
 
 fn main(){
     println!("Guess the number!");
@@ -21,5 +22,19 @@ fn main(){
     // parts of the code access one piece of data without needing to copy that data into memory
     // multiple times
 
+    let guess: u32 = guess.trim().parse().expect("Please type a number!");
+    // The trim method on a String instance will eliminate any whitespace at the beginning and end, which
+    // we must do to be able to compare the string to the u32, which can only contain numerical data.
+
+    // parse() documentation: https://doc.rust-lang.org/std/primitive.str.html#method.parse
+
     println!("You guessed: {}", guess);
+
+    match guess.cmp(&secret_number) {
+        // A "match" expression is made up of "arms"; an "arm" consists of a "pattern" to match against,
+        // and the code that should be run if the value given to "match" fits that arm's pattern.
+        Ordering::Less => println!("Too small!"),
+        Ordering::Greater => println!("Too big!"),
+        Ordering::Equal => println!("You win!"),
+    }
 }
