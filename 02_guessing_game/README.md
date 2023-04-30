@@ -1,4 +1,6 @@
-## Guessing Game!
+## [Guessing Game!](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html)
+
+A "guess the number" game from [Chapter 2 of the Rust book](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html).
 
 From the top-level `guessing_game` directory, run:
 
