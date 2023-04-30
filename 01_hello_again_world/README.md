@@ -1,4 +1,8 @@
+# [Getting Started](https://doc.rust-lang.org/book/ch01-00-getting-started.html)
+
 > Restarting this learning journey as of August 2022!
+
+My re-implementation of "Hello world!" in Rust, from [Chapter 1 of the Rust book](https://doc.rust-lang.org/book/ch01-02-hello-world.html).
 
 ## Running `hello_again_world.rs`
 
