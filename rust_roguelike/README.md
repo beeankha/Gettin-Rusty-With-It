@@ -37,3 +37,12 @@ $ cd wasm32-unknown-unknown
 * [Traits](https://doc.rust-lang.org/book/ch10-02-traits.html)
 * [Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
 * [References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
+* [Variables and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)
+* [`r/rust`](https://www.reddit.com/r/rust/)
+* [`r/roguelikedev`](https://www.reddit.com/r/roguelikedev/)
+
+### Chapter 2: Entities and Components
+
+* [Tutorial: Writing a tiny Entity Component System (ECS) in Rust](https://ianjk.com/ecs-in-rust/)
+* [Passive Data Structures](https://en.wikipedia.org/wiki/Passive_data_structure) (related to concept of POD, a.k.a. "Plain Old Data")
+* [Method Syntax](https://doc.rust-lang.org/book/ch05-03-method-syntax.html)
