@@ -35,11 +35,12 @@ $ cd wasm32-unknown-unknown
 * [`rltk` GitHub Repo](https://github.com/thebracket/rltk)
 * [Structs](https://doc.rust-lang.org/book/ch05-00-structs.html) (Rust book chapter 5)
 * [Traits](https://doc.rust-lang.org/book/ch10-02-traits.html) (Rust book chapter 10, section 2)
-* [Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html)
+* [Functions](https://doc.rust-lang.org/book/ch03-03-how-functions-work.html) (Rust book chapter 3, section 3)
 * [References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html) (Rust book chapter 4, section 2)
 * [Variables and Mutability](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html) (Rust book chapter 3, section 1)
 * [`r/rust`](https://www.reddit.com/r/rust/)
 * [`r/roguelikedev`](https://www.reddit.com/r/roguelikedev/)
+
 
 ### [Chapter 2: Entities and Components](https://bfnightly.bracketproductions.com/chapter_2.html)
 
@@ -54,3 +55,13 @@ $ cd wasm32-unknown-unknown
 * [Generic Types, Traits, and Lifetimes](https://doc.rust-lang.org/book/ch10-00-generics.html) (Rust book chapter 10)
 * [Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html) (Rust book chapter 6)
 * [`match`](https://doc.rust-lang.org/rust-by-example/flow_control/match.html) (from the Rust By Example book)
+
+
+### [Chapter 3: Walking a Map](https://bfnightly.bracketproductions.com/chapter_3.html)
+
+* [Enums and Pattern Matching](https://doc.rust-lang.org/book/ch06-00-enums.html) (Rust book chapter 6, again)
+* [Arrays and Slices](https://doc.rust-lang.org/rust-by-example/primitives/array.html) (from the Rust By Example book)
+* [Vectors](https://doc.rust-lang.org/rust-by-example/std/vec.html) (from the Rust by Example book; this is a particularly good one to study, since `Vec`s are used _everywhere_)
+* [For Loops](https://doc.rust-lang.org/rust-by-example/flow_control/for.html) (from the Rust by Example book)
+* [Resources](https://specs.amethyst.rs/docs/tutorials/04_resources.html) (from the Specs Book, chapter 4)
+* [Arrays and Slices](https://doc.rust-lang.org/rust-by-example/primitives/array.html) (from the Rust by Example book)
