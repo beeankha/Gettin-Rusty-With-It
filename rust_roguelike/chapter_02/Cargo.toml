@@ -1,0 +1,13 @@
+[package]
+name = "rust_roguelike"
+version = "0.1.0"
+authors = ["Bianca Henderson"]
+edition = "2021"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rltk = { version = "0.8.0" }
+specs = { version = "0.19.0" }
+specs-derive = "0.4.1"
